@@ -43,6 +43,7 @@
           {
             "devDependencies": [
               "scripts/**/*",
+              "/src/mocks/**/*",
               "/src/**/*.@(spec|test).@(ts|tsx)",
               "/src/**/*.@(stories|story).@(ts|tsx)"
             ]
