@@ -5,7 +5,7 @@ function Global(): JSX.Element {
   return (
     <EmGlobal
       styles={css`
-        @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Spartan:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
 
         ${reset}
 
@@ -16,8 +16,12 @@ function Global(): JSX.Element {
         }
 
         body {
-          background-size: 100%;
-          font-family: 'Spartan', sans-serif;
+          height: 100vh;
+          font-family: 'Barlow', sans-serif;
+        }
+
+        #root {
+          height: 100%;
         }
       `}
     />
